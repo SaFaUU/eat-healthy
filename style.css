@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Rubik', sans-serif;
-    height: 100%;
 }
 
 div {
@@ -9,18 +8,22 @@ div {
 }
 
 .link-button {
-    text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     font-weight: 300;
     font-size: 20px;
-    color: white;
-    padding: 15px 40px;
+    padding: 15px 30px;
     border-radius: 35px;
     box-shadow: 0px 0px 20px orange;
-    margin-top: 350px;
+    margin-top: 200px;
 }
 
-section {}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
 
 .section-area {
     display: flex;
@@ -76,7 +79,7 @@ h1 {
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 h2 {
@@ -99,8 +102,43 @@ h3 {
 
 footer {
     margin: 0;
-    padding-bottom: 120px;
+    padding-bottom: 0px;
     background-color: rgb(19, 20, 26);
     color: white;
     position: bottom;
+
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
+
+.subscriber-area {
+    display: flex;
+    width: 95%;
+    padding: 20px 0px;
+
+}
+
+.subscriber-area div {
+    margin-left: 250px;
+}
+
+#social-stats h2 {
+    margin: 0;
+    padding-top: 0;
+}
+
+#social-stats p {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.button-space {
+    padding-top: 50px;
+}
+
+footer div {
+    padding: 50px;
 }
