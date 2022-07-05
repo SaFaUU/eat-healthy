@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    height: 100%;
+}
+
+div {
+    background-size: cover;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 20px orange;
+    margin-top: 350px;
+}
+
+section {}
+
+.section-area {
+    display: flex;
+    padding: 150px;
+}
+
+.text-center {
+    text-align: center;
+    padding: 0px 200px;
+
+}
+
+.half-width {
+    width: 100%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+
+
+.tomato {
+    color: tomato;
+}
+
+.about-me-bg {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    font-size: 85px;
+}
+
+#female-pic {
+    padding-top: 3%;
+    padding-left: 15%;
+    width: 50%;
+}
+
+.top-section {
+    margin-bottom: 25px;
+}
+
+.about-me {
+    padding-top: 60px;
+}
+
+.grey-color {
+    color: rgb(97, 95, 95);
+}
+
+p {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(173, 173, 173);
+}
+
+.recipe-block {
+    width: 40%;
+    margin: 50px;
+    padding: 2%;
+    border-radius: 35px;
+    box-shadow: 0px 0px 40px rgb(201, 201, 201);
+}
+
+footer {
+    margin: 0;
+    padding-bottom: 120px;
+    background-color: rgb(19, 20, 26);
+    color: white;
+    position: bottom;
+}
